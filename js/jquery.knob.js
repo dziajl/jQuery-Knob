@@ -417,7 +417,7 @@
                             s._xy()._touch(e);
                         }
                     );
-
+                this.$.removeAttr('readonly');
                 this.listen();
             } else {
                 this.$c.unbind("mousedown");
